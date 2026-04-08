@@ -1,8 +1,6 @@
 """
 Test: Login & Navigation Automation
 Site: https://the-internet.herokuapp.com
-Tools: Playwright, Python (pytest-playwright)
-Author: Jessca Belle Bagolor
 Description:
     Demonstrates Playwright browser automation for login flows,
     navigation, and assertions. Uses Playwright's modern async-friendly

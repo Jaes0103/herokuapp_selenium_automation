@@ -1,7 +1,6 @@
 """
 Test: Login Form Automation
-Site: https://the-internet.herokuapp.com/login (public demo site)
-Tools: Selenium WebDriver, Python
+Site: https://the-internet.herokuapp.com/login
 Description:
     Demonstrates browser automation for login form validation.
     Covers successful login, failed login, and logout flows.

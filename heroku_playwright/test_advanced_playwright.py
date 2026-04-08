@@ -2,7 +2,6 @@
 Test: Multi-Page Flows, Screenshots & Assertions
 Site: https://the-internet.herokuapp.com
 Tools: Playwright, Python (pytest-playwright)
-Author: Jessca Belle Bagolor
 Description:
     Demonstrates Playwright's powerful features:
     - Multi-step page navigation

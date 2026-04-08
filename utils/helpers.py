@@ -1,6 +1,5 @@
 """
 Utility Helpers for Automation Portfolio
-Author: Jessca Belle Bagolor
 Description:
     Reusable helper functions shared across Selenium and Playwright test suites.
     Includes screenshot capture, wait helpers, and element utilities.

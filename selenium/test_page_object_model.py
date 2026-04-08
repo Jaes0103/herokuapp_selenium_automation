@@ -1,7 +1,6 @@
 """
 Test: Page Object Model (POM) Pattern
-Site: https://the-internet.herokuapp.com (public demo site)
-Tools: Selenium WebDriver, Python
+Site: https://the-internet.herokuapp.com
 Description:
     Demonstrates the Page Object Model design pattern — a best practice in
     automation that separates page structure from test logic, making tests

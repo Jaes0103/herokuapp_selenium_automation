@@ -1,5 +1,4 @@
 """
-Playwright Test: Login & Form Automation
 Site: https://the-internet.herokuapp.com (public testing site)
 Description:
     Demonstrates browser automation using Playwright with async support.

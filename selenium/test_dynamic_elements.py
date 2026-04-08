@@ -1,7 +1,6 @@
 """
 Test: Dynamic Elements & Wait Strategies
-Site: https://the-internet.herokuapp.com (public demo site)
-Tools: Selenium WebDriver, Python
+Site: https://the-internet.herokuapp.com 
 Description:
     Demonstrates handling of dynamic web content — disappearing elements,
     loading spinners, and AJAX-driven UI changes using explicit waits.

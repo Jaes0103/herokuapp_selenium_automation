@@ -1,7 +1,6 @@
 """
 Selenium Test: Dynamic Elements & Wait Strategies
 Site: https://the-internet.herokuapp.com (public testing site)
-Author: Jessca Belle Bagolor
 Description:
     Demonstrates handling of dynamic web elements, explicit waits,
     dropdowns, checkboxes, and alerts — common real-world automation challenges.
