@@ -14,6 +14,12 @@ automation-portfolio/
 │   ├── test_page_object_model.py     # Page Object Model (POM) design pattern
 │   └── requirements.txt
 │
+├── web_scraping_selenium/
+│   ├── test_web_scraping.py          # Quote scraping with pagination
+│   ├── test_ecommerce_scraping.py    # E-commerce product scraping
+│   ├── scraper_utils.py              # Data export utilities (JSON/CSV)
+│   └── requirements.txt
+│
 └── heroku_playwright/
     ├── test_login_playwright.py      # Login flows with Playwright
     ├── test_advanced_playwright.py   # Iframes, tabs, alerts, screenshots
@@ -36,10 +42,18 @@ automation-portfolio/
 
 ## 🚀 Getting Started
 
-### Selenium
+### Selenium Tests
 
 ```bash
 cd heroku_selenium
+pip install -r requirements.txt
+pytest -v
+```
+
+### Web Scraping
+
+```bash
+cd web_scraping_selenium
 pip install -r requirements.txt
 pytest -v
 ```
@@ -57,13 +71,22 @@ pytest -v
 
 ## 📋 What's Covered
 
-### Selenium
+### Selenium Tests
 - ✅ Login form automation (valid, invalid, empty fields)
 - ✅ Explicit & implicit waits
 - ✅ Dynamic element handling (AJAX, spinners, disappearing elements)
 - ✅ Page Object Model (POM) design pattern
 - ✅ Parametrized test cases
 - ✅ Timeout exception handling
+
+### Web Scraping
+- ✅ Quote scraping with pagination
+- ✅ E-commerce product data extraction
+- ✅ Export data to JSON/CSV formats
+- ✅ Author & tag filtering
+- ✅ Price analysis & statistics
+- ✅ JavaScript execution
+- ✅ Error handling & recovery
 
 ### Playwright
 - ✅ Login & logout flows
